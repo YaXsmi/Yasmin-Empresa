@@ -1,0 +1,168 @@
+header {
+  background-color: #8F583D;
+  padding: 20px 0;
+}
+
+.caixa{
+  width: 940px;
+  height: 250px;
+  position: relative;
+  margin: 0 auto;
+}
+.nav-links{
+  width: 900px;
+  padding-left: 700px;
+}
+nav{
+  position: absolute;
+  top: 125px;
+  margin-left: 75px;
+}
+
+nav li{
+  display: inline;
+  margin-left: 15px;
+    }
+
+nav a{
+  color: #3d2515;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}  
+
+nav a:hover{
+  color: #e00b2b;
+  text-decoration: underline;
+}
+
+.produtos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.produtos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.produtos h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produtos-descricao{
+  font-size: 18px;
+}
+
+.produtos-preco{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px 0 0 0;
+}
+
+.produtos li:hover{
+  border-color: gold;
+}
+
+.produtos li:hover h2{
+  font-size: 34px;
+}
+
+.produtos li:active{
+  border-color: #8a16fe;
+}
+
+footer{
+  text-align: center;
+  background: url(bg.png);
+  padding: 40px 0;
+}
+
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.input-padrao{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: #ffbb00;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.enviar:hover{
+  background: #ff9500;
+  transform: scale(1.1);
+}
+
+table{
+  margin: 20px 0 40px;
+}
+thead{
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+th, td{
+  border: 2px solid #000000;
+  padding: 10px;
+
+  text-align: center;
+
+}
+
+
+
+.titulo-principal{
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+}
+
+.utensilios{
+  width: 120px;
+  margin: 0 20px 20px 0;
+}
